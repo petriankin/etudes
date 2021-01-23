@@ -9,8 +9,5 @@
   </parent>
 
   <artifactId>interview</artifactId>
-  <version>1.0-SNAPSHOT</version>
-
-  <name>interview</name>
 
 </project>
