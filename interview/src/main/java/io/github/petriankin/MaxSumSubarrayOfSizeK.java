@@ -1,8 +1,13 @@
 package io.github.petriankin;
 
+/**
+ * Given an array of positive numbers and a positive number ‘k’,
+ * find the maximum sum of any contiguous subarray of size ‘k’.
+ */
+
 public class MaxSumSubarrayOfSizeK {
     public static int findMaxSumSubarray(int k, int[] arr) {
-        int max = Integer.MIN_VALUE;
+        int max = 0;
         int currentSum = 0;
         int windowStart = 0;
 
